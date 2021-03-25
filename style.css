@@ -1,0 +1,57 @@
+h1, h2, h3, nav li {
+  font-family: 'Kiwi Maru', serif;
+
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+.top-bar{
+  background-color: rgb(226, 79, 79);
+}
+.navbar{
+  font-size:1.15rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+}
+
+#carousel{
+  box-shadow: 0 1rem 1rem rbga(0,0,0,.1);
+}
+.carousel-inner{
+  max-height: 38rem !important;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active{
+  transition: transform 1.2s ease;
+}
+
+.product img{
+  width:100%;
+  object-fit: cover;
+  margin-left:70px;
+}
+.product .product-img{
+  width: 100px;
+  height: 70px;
+}
+.product-info{
+  margin-top:150px;
+}
+
+.stripes {
+  box-shadow: 0 3px 0 rgb(0 0 0 / 5%) inset;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  color: #000000;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+  text-align: left;
+}
+
+footer{
+  margin-top: 100px;
+}
